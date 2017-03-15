@@ -6,7 +6,7 @@ php:
 build:
   pre_ci_boot:
     image_name: drydock/u16phpall
-    tag_name: master
+    image_tag: master
   ci:
     - php --version
     - php -m
